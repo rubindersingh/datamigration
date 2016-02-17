@@ -1,0 +1,24 @@
+package com.migrate
+
+/**
+ * Created by rubinder on 29/9/15.
+ */
+interface MigrationConstants {
+    Integer CART_ITERATION_SIZE = 1000
+    Integer COUPON_ITERATION_SIZE = 1000
+    Integer DISCOUNT_ITERATION_SIZE = 1000
+    Integer ORDER_ITERATION_SIZE = 1000
+    Integer CATEGORY_ITERATION_SIZE = 1000
+    Integer PRODUCT_ITERATION_SIZE = 1000
+    Integer REVIEW_ITERATION_SIZE = 1000
+    Integer TESTIMONIAL_ITERATION_SIZE = 1000
+    Integer USER_ITERATION_SIZE = 1000
+    Integer NEWSLETTER_ITERATION_SIZE = 1000
+    Integer ZIPCODE_ITERATION_SIZE = 2000
+    Integer COUPON_CODE_ITERATION_SIZE = 50000
+
+    Integer THREAD_POOL_SIZE = 1000
+
+    Integer BEST_VALUE_INDEX_ADD = 1000
+
+}
